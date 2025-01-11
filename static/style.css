@@ -1,3 +1,36 @@
 * {
+    font-family: 'work sans', sans-serif;
+    margin: 0;
+}
+
+.header {
     background-color: rgb(23, 23, 23);
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name-icon {
+    color: white;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.home {
+    font-size: 14px;
+    color: rgb(190, 189, 189);
+    font-weight: 500;
+}
+
+.login {
+    color: rgb(190, 189, 189);    
+    font-size: 14px;
+    font-weight: 500;
 }
