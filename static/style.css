@@ -17,10 +17,9 @@
     font-size: 18px;
 }
 
-
 .container {
     display: flex;
-    gap: 10px;
+    gap: 12px;
 }
 
 .home {
@@ -29,8 +28,51 @@
     font-weight: 500;
 }
 
+.home:hover {
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(150, 150, 150);
+    font-weight: 500;
+}
+
+.home:active {
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+    font-weight: 500;
+}
+
 .login {
     color: rgb(190, 189, 189);    
     font-size: 14px;
     font-weight: 500;
+}
+
+.login:hover {
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(150, 150, 150);
+    font-weight: 500;
+}
+
+.login:active {
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+    font-weight: 500;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.sub {
+    margin-top: 75px;
+    margin-left: 55px;
+    width: 50%;
+    color: rgb(97, 96, 96);
 }
