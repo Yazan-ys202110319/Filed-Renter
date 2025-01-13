@@ -67,6 +67,33 @@
     font-weight: 500;
 }
 
+.schedule {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(190, 189, 189);
+    font-weight: 500;
+}
+
+.arrow-down {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.schedule:hover {
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(150, 150, 150);
+    font-weight: 500;
+}
+
+.schedule:active {
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+    font-weight: 500;
+}
 
 .title {
     display: flex;
